@@ -25,6 +25,30 @@ Pushwoosh.init({ "pw_appid" : "XXXXX-XXXXX", "project_number":"XXXXXXXXXXXX"});
 
 ### 2. Add 'google-services.json' file in android -> app folder.
 
+### 3. Add GoogleServices gradle plugin to your project's build.gradle:
+
+```
+// you should already have buildscript and dependencies blocks in your project's build.gradle so just put the classpath line there
+
+buildscript {
+  dependencies {
+  classpath 'com.google.gms:google-services:4.3.3'
+  }
+}
+
+```
+
+### 4. Apply GoogleServicesPlugin in your app's build.gradle:
+
+```
+// add these lines to the very end of your build.gradle
+
+apply {
+ plugin com.google.gms.googleservices.GoogleServicesPlugin
+}
+
+```
+
 ## The guide for SDK integration is available on Pushwoosh [website](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/cross-platform-frameworks/react-native/integrating-react-native-plugin).
 
 Documentation:
