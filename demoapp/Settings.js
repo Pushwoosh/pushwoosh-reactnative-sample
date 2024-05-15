@@ -19,7 +19,7 @@ const Settings = () => {
             * 1. app_id - YOUR_APP_ID
             * 2. sender_id - FCM_SENDER_ID
             */
-            Pushwoosh.init({ "pw_appid" : "11C10-EF18D", "project_number":"245850018966"});
+            Pushwoosh.init({ "pw_appid" : "XXXXX-XXXXX", "project_number":"XXXXXXXXXXXX"});
             
            /**
             * To register for push notifications, call the following method:
