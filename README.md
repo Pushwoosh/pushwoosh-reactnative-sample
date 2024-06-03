@@ -49,17 +49,6 @@ apply {
 
 ```
 
-### 6. Apply GoogleServicesPlugin in your app's build.gradle:
-
-```
-// add these lines to the very end of your build.gradle
-
-apply {
- plugin com.google.gms.googleservices.GoogleServicesPlugin
-}
-
-```
-
 ## The guide for SDK integration is available on Pushwoosh [website](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/cross-platform-frameworks/react-native/integrating-react-native-plugin).
 
 Documentation:
