@@ -49,19 +49,6 @@ apply {
 
 ```
 
-### 5. Add GoogleServices gradle plugin to your project's build.gradle:
-
-```
-// you should already have buildscript and dependencies blocks in your project's build.gradle so just put the classpath line there
-
-buildscript {
-  dependencies {
-  classpath 'com.google.gms:google-services:4.3.3'
-  }
-}
-
-```
-
 ### 6. Apply GoogleServicesPlugin in your app's build.gradle:
 
 ```
